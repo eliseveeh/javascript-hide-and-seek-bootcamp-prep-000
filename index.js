@@ -19,7 +19,7 @@ function deepestChild(){
    for (var x = 0; x < listOf.length; x++){
      console.log(typeof listOf[x].innerHTML)
 
-     
+
 
    }
 }
