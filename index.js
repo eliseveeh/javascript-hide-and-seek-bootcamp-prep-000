@@ -15,7 +15,7 @@ function increaseRankBy(n){
 }
 
 function deepestChild(){
-  return document.querySelector('#grand-node div div div div')
+  var listOf = document.querySelector('#grand-node')
 
 
 
@@ -23,3 +23,5 @@ function deepestChild(){
 
 
 }
+
+  // return document.querySelector('#grand-node div div div div')
