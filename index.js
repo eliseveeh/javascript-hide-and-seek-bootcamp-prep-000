@@ -19,11 +19,12 @@ function deepestChild(){
   var next = [];
 
   while (current){
-    if (typeof current.innerHTML === "string"){
+    if (typeof current !== "undefined"){
       return current.innerHTML;
     }
     if (Array.isArray(current)){
       for (var x = 0; x < current.length; x++){
+        
         next.push(current[x])
       }
     }
