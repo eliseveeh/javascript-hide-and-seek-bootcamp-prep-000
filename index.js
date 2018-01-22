@@ -20,6 +20,6 @@ function deepestChild(){
      if (typeof listOf[x].innerHTML === "string"){
        return listOf[x].innerHTML
      }
-     listOf = listOf.shift()
+  
    }
 }
